@@ -69,6 +69,10 @@
                   display: none; } }
             #main-container .page-content .tables-container .tables table tr td:first-of-type {
               padding-left: 10px; }
+            @media (max-width: 1100px) {
+              #main-container .page-content .tables-container .tables table tr td .input-group {
+                display: inline-block;
+                width: auto; } }
             #main-container .page-content .tables-container .tables table tr td input {
               text-align: center;
               background: transparent;
